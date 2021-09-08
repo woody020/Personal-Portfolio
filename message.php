@@ -5,7 +5,7 @@
 
     if(!empty($email) && !empty($subject) && !empty($message)){
         if(filter_var($email, FILTER_VALIDATE_EMAIL)){
-            $sender = "From: shahiprem7890@gmail.com";
+            $sender = "From: vishad.sharma12@gmail.com";
             if(mail($email, $subject, $message, $sender)){
                 echo "success";
             }else{
